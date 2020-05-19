@@ -1,0 +1,7 @@
+.form-control {
+    width: 50%;
+}
+
+.formLabel, .btn-primary, .form-control {
+    margin-left: 25%;
+}

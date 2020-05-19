@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style-form.css">
+    <script src="javascript-form.js" defer></script>
+</head>
+<body>
+    <a href="home.html">Tagasi koju</a>
+    <br><br><br>
+    <form name="nameForm" onsubmit="return submitForm(event)" method="POST">
+        <label class="formLabel" for="firstname">Eesnimi:</label><br>
+        <input class="form-control" type="text" id="firstname" name="firstname" placeholder="John"><br>
+        <label class="formLabel" for="lastname">Perenimi:</label><br>
+        <input class="form-control" type="text" id="lastname" name="lastname" placeholder="Doe"><br><br>
+        <input class="btn btn-primary" type="submit" value="Sisesta">
+      </form> 
+</body>
+</html>
